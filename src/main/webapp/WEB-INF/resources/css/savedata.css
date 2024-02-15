@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+body{
+    position: relative;
+    top: 30%;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+}
+
+#success{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+#login{
+    position: absolute;
+    top:55%;
+    left: 44%;
+}

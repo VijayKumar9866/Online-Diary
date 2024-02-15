@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+#mydiary{
+	font-family: Cursive;
+	font-size: 20px;
+}
+
+body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: url('../images/Diary.jpg');
+	background-size: cover;
+	background-position: 100vw 100vh;
+	margin: 0;
+}
+
+
+
+#loginform{
+	border: 3px solid black;
+	border-radius: 10px;
+	width: 300px;
+	height: 365px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:absolute;
+	left: 70%;
+	top: 200px;
+}
+
+#header{
+	display: flex;
+	margin-top: 5px;
+}
+
+img{
+	width: 30px;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+
+input[type=text],input[type=password]{
+	border: none;
+	border-radius: 2px;
+	opacity: 0.3;
+	outline: none;
+	height: 20px;
+}
+
+input[type=text]:hover,input[type=password]:hover{
+	opacity: 1;
+}
+
+#images{
+	position: absolute;
+	left: 20%;
+	top: 25%;
+}
+
+#login{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+}
+
+#submit{
+	position: relative;
+	left: 35%;
+	height: 30px;
+	width: 70px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit:hover{
+	background-color:antiquewhite;	
+}
+
+#new{
+	position: absolute;
+	left: 30%;
+}
+
+#new:hover{
+	color: blue;
+}
+
+h5{
+	text-align: center;
+	color: red;
+}
